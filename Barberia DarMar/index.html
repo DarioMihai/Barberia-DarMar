@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+<!DOCTYPE html>
+    <title>Peluquería Masculina</title><!-- Título que aparece en la pestaña del navegador -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Barbería DarMar</h1><!-- Título principal de la página -->
+    </header>
+    
+    <nav><!-- Barra de navegación principal -->
+        <a href="#inicio">Inicio</a><!-- Enlace que lleva a la sección inicio-->
+        <a href="#citas">Reservar Cita</a><!-- Enlace a la sección de reservas -->
+        <a href="#tienda">Tienda</a><!-- Enlace a la tienda -->
+        <a href="#contacto">Contacto</a><!-- Enlace a la sección de contacto -->
+    </nav>
+    
+    <section id="inicio"><!-- Primera sección visible presentación de la barbería -->
+    
+        <h2>Bienvenido a DarMar</h2><!-- Subtítulo de sección -->
+        <p>En DarMar ofrecemos cortes de todos los tipos tanto clásicos como modernos, todo tipo de degradados. También arreglamos barbas, cejas, diseños en los cortes y tambien hacemos decoloracion de pelo y la permanente.</p><!-- Descripción de los servicios -->
+        <p>Precios:</p><!-- Título para la lista de precios -->
+    
+        <!-- Lista con los precios de cada servicio -->
+        <p>Corte normal = 10€</p>
+        <p>Diselo = 2€</p>
+        <p>Barba = 6€</p>
+        <p>Decoloracion = 35€</p>
+        <p>Permanente = 50€</p>
+        <!-- Imágenes de los estilos o servicios que se da en la peluqueria-->
+        <img src="mullet.png" alt="mullet">
+        <img src="degradadoMedio.png" alt="degradadoMedio">
+        <img src="corteClasico.png" alt="corteClasico">
+        <img src="barba.png" alt="barba">
+        <img src="diseño.png" alt="diseño">
+        <img src="decoloracion.png" alt="decoloracion">
+        <img src="permanente.png" alt="permanente">
+    </section>
+    
+    <section id="citas"><!-- Sección para realizar reservas -->
+        <h2>Reservar una cita</h2><!-- Subtítulo de sección -->
+        <p>Haz clic en el botón para rellenar tu reserva:</p><!-- Instrucción para el usuario -->
+        <a href="reservas.html" target="_blank" class="boton-reserva">Reservar ahora</a><!-- Botón que abre la página de reservas en una nueva pestaña. -->
+    </section>
+    
+    <section id="tienda"><!-- Sección de productos a la tienda -->
+        <h2>Tienda Online</h2><!-- Subtítulo de sección -->
+    
+        <table><!-- Tabla de productos -->
+            <tr><!-- Fila de encabezado -->
+                <th>Producto</th>
+                <th>Descripción</th>
+                <th>Precio</th>
+            </tr>
+            <!-- Fila de producto -->
+            <tr>
+                <td><img src="capaPelu.png" alt="Capa de peluquería"></td><!-- Imagen del producto -->
+                <td>Capa de peluquería resistente al agua, cómoda y ligera.</td>
+                <td>7€</td><!-- Precio -->
+            </tr>
+            <tr>
+                <td><img src="juegoTijeras.png" alt="Tijeras profesionales"></td><!-- Imagen del producto -->
+                <td>Tijeras profesionales de acero inoxidable, ideales para cortes precisos.</td>
+                <td>45€</td><!-- Precio -->
+            </tr>
+            <tr>
+                <td><img src="ceraPelu.png" alt="Cera de pelo"></td><!-- Imagen del producto -->
+                <td>Cera de pelo de larga duración, perfecta para estilos modernos.</td><!-- Descripción -->
+                <td>5€</td><!-- Precio -->
+            </tr>
+            <tr>
+                <td><img src="navaja.png" alt="navaja"></td><!-- Imagen del producto -->
+                <td>Navaja para afeitar y delinearlos diseños.</td><!-- Descripción -->
+                <td>10€</td><!-- Precio -->
+            </tr>
+            <tr>
+                <td><img src="cuchillas.png" alt="Cuchillas"></td><!-- Imagen del producto -->
+                <td>Cuchillas de repuesto de alta calidad para la navaja.</td><!-- Descripción -->
+                <td>3€</td><!-- Precio -->
+            </tr>
+            <tr>
+                <td><img src="setPeines.png" alt="Peines de precisión"></td><!-- Imagen del producto -->
+                <td>Set de peines de precisión para peinados detallados.</td><!-- Descripción -->
+                <td>8€</td><!-- Precio -->
+            </tr>
+            <tr>
+                <td><img src="peinesMaquina.png" alt="Peines de la maquina"></td><!-- Imagen del producto -->
+                <td>Peines de maquina para el degradado de los cortes.</td><!-- Descripción -->
+                <td>5€</td><!-- Precio -->
+            </tr>
+            <tr>
+                <td><img src="clipper.png" alt="Clipper"></td><!-- Imagen del producto -->
+                <td>Clipper potente para cortes completos con diferentes niveles.</td><!-- Descripción -->
+                <td>130€</td><!-- Precio -->
+            </tr>
+            <tr>
+                <td><img src="trimmer.png" alt="Trimmer"></td><!-- Imagen del producto -->
+                <td>Trimmer profesional para delinear contornos con precisión.</td><!-- Descripción -->
+                <td>120€</td><!-- Precio -->
+            </tr>
+            <tr>
+                <td><img src="shaver.png" alt="Shaver"></td><!-- Imagen del producto -->
+                <td>Shaver eléctrica para un afeitado al ras sin irritación.</td><!-- Descripción -->
+                <td>105€</td><!-- Precio -->
+            </tr>
+        </table>
+    </section>
+    
+    <section id="contacto"><!-- Sección con datos de contacto -->
+        <h2>Contacto</h2><!-- Subtítulo de sección -->
+        <p>Email: barberiadarmar@gmail.com</p><!-- Email de contacto -->
+        <p>Teléfono: +34 123 456 789</p><!-- Número de teléfono -->
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Barbería DarMar</p><!-- Pie de página -->
+    </footer>
+
+</body>
+</html>

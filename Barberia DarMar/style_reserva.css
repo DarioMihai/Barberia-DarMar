@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;/* Tipo de letra del texto principal del texto */
+    background-color: #f4f4f4;/* Color de fondo blanco */
+    padding: 30px;/* Espaciado interior de 30px alrededor del contenido */
+}
+form {
+    max-width: 450px; /* Ancho máximo del formulario */
+    margin: auto; /* Centra el formulario */
+    background-color: white; /* Fondo blanco del formulario */
+    padding: 40px; /* Espacio interno del formulario */
+    border-radius: 10px; /* Bordes redondeados */
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif; /* tipo de letra alternativa */
+    background: url(fondoReservas.png) no-repeat center center fixed; /* Imagen de fondo centrada y fija */
+    background-size: cover; /* Hace que la imagen cubra toda la pantalla */
+    margin: 0; /* Elimina márgenes por defecto */
+    padding: 0; /* Elimina relleno por defecto */
+    display: flex; /* Activa flexbox para alinear elementos */
+    justify-content: center; /* Centra el contenido */
+    align-items: center; /* Centra el contenido */
+    height: 100vh; /* Altura del viewport para que ocupe toda la pantalla */
+}
+
+input, select {
+    padding: 8px; /* Relleno interno */
+    width: 100%; /* Ocupan todo el ancho disponible */
+    margin-bottom: 10px; /* Espacio inferior*/
+}
+button {
+    padding: 10px; /* Relleno interno */
+    background-color: #333; /* Fondo gris oscuro */
+    color: white; /* Texto blanco */
+    border: none; /* Sin bordes */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor tipo puntero al pasar por encima */
+    width: 100%; /* Ancho completo */
+}

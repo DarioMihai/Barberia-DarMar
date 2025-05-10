@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Reserva de Cita - DarMar</title>
+    <link rel="stylesheet" href="style_reserva.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <form><!-- Formulario para realizar la reserva -->
+        <h2>Formulario de Reserva</h2><!-- Título del formulario -->
+        <!-- Campo para ingresar el nombre -->
+        <label for="nombre">Nombre completo:</label><!-- Etiqueta del campo -->
+        <input type="text" id="nombre" name="nombre" required><!-- Campo de texto obligatorio -->
+
+        <label for="fecha">Fecha:</label><!-- Etiqueta del campo -->
+        <input type="date" id="fecha" name="fecha" required><!-- Campo de texto obligatorio -->
+
+        <label for="hora">Hora:</label><!-- Etiqueta del campo -->
+        <input type="time" id="hora" name="hora" required><!-- Campo de texto obligatorio -->
+
+        <button type="submit">Enviar Reserva</button><!-- Botón para enviar el formulario -->
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>

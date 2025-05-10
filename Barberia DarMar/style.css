@@ -1,0 +1,92 @@
+body {
+    font-family:  arial, sans-serif;/* Tipo de letra del texto */
+    margin: 0;/* Elimina el margen exterior del body */
+    padding: 0;/* Elimina el relleno interior del body */
+    background-color: #f4f4f4;/* Color banco de fondo */
+}
+header {
+    font-family: lucida;/* Tipo de letra del texto */
+    background: url(fondoReservas.png) no-repeat center center fixed;/* Imagen de fondo */
+    background-size: cover; /* Ajuste de la imagen al tamaño de pantalla */
+    background-color: #222;/* Color de respaldo por si la imagen no carga */
+    color: white;/* Texto blanco */
+    padding: 20px;/* Espacio interno de 20 px alrededor del contenido del header */
+    text-align: center;/* Centra el texto */
+}
+nav {
+    background-color: #333;/* fondo gris oscuro para la barra de navegación */
+    padding: 10px;/* Añade 10 px de espacio interno a todo el nav */
+    text-align: center;/* Centra el contenido (los enlaces) dentro del nav */
+}
+nav a {
+    color: white;/* Color del texto de los enlaces en la navegación */
+    margin: 0 15px; /* Añade un margen horizontal de 15px entre enlaces */
+    text-decoration: none;/* Elimina el subrayado de los enlaces */
+    font-weight: bold;/* Hace que el texto del enlace se vea en negrita */
+}
+section {
+    padding: 30px;/* Añade 30 píxeles de espacio interior para que el contenido no esté pegado al borde */
+}
+footer {
+    background: url(fondoReservas.png) no-repeat center center fixed;/* Fondo con imagen centrada*/
+    background-size: cover;/* Hace que la imagen cubra todo el área del footer */
+    background-color: #222;/* Color de fondo negro */
+    color: rgb(255, 255, 255);/* Texto en color blanco usando formato RGB */
+    font-family: lucida;/* Tipo de texto en el pie de página */
+    text-align: center;/* Centra el texto */
+    padding: 20px;/* Espaciado interno */
+}
+img {
+    margin: 5px;/* Espacio exterior de 5 px alrededor de cada imagen */
+    width: 150px;/* Ancho fijo de cada imagen */
+    height: auto;/* Altura automática para mantener la proporción original */
+    border-radius: 8px;/* Bordes redondeados de 8 píxeles en las esquinas */
+}
+table {
+    width: 100%;/* Hace que la tabla ocupe el 100% del ancho*/
+    border-collapse: collapse;/* Une los bordes de las celdas */
+    background-color: white;/* Fondo blanco para la tabla */
+}
+table th, table td {
+    padding: 15px; /* Espacio interior de 15 px en celdas y encabezados */
+    text-align: left;/* Alinea el texto de las celdas a la izquierda */
+    border-bottom: 1px solid #ddd;/* Línea gris clara debajo de cada fila*/
+}
+table th {
+    background-color: #333;/* Fondo gris oscuro para los encabezados de columna */
+    color: white;/* Texto blanco en los encabezados */
+}
+table img {
+    width: 100px;/* Las imágenes dentro de la tabla tendrán un ancho de 100px */
+    height: auto;/* Mantienen su proporción de altura automáticamente */
+    border-radius: 5px;/* Bordes redondeados */
+}
+.boton-reserva {
+    display: inline-block;/* El botón se comporta como un bloque en línea */
+    padding: 10px 20px;/* Espaciado interno 10px arriba/abajo, 20px izquierda/derecha */
+    background-color: #333;/* Color de fondo del botón */
+    color: rgb(255, 255, 255);/* Texto blanco */
+    text-decoration: none;/* Elimina subrayado del enlace que parece botón */
+    border-radius: 5px; /* Bordes redondeados */
+    margin-top: 15px;/* Margen superior para separar del texto anterior */
+}
+form input, form select {
+    padding: 8px;/* Espaciado interno del formulario */
+    width: 100%;/* Ocupan todo el ancho disponible dentro del formulario */
+    margin-bottom: 10px;/* Separación*/
+}
+form button {
+    padding: 10px;/* Espacio interior del botón */
+    background-color: #333;/* Fondo gris oscuro */
+    color: rgb(255, 255, 255);/* Texto blanco */
+    border: none; /* Elimina el borde predeterminado */
+    border-radius: 5px;/* Bordes redondeados */
+    cursor: pointer;/* Cambia el cursor al icono de clic */
+}
+form {
+    max-width: 400px;/* El formulario será  de ancho de 400px */
+    margin: auto;/* Centra el formulario */
+    background-color: rgb(255, 255, 255);/* Fondo blanco */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 8px;/* Bordes redondeados */
+}
